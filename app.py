@@ -37,7 +37,7 @@ def calculate():
         history=float(request.form['history'])
 
         average_marks=(maths+science+history)/3
-        result="" 
+        result=" " 
         if average_marks>=50:
             result="success"
         else:
